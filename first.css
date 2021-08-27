@@ -1,6 +1,6 @@
 body{
-    max-width: 3000px;
-    margin: 0;
+    max-width: 2000px;
+    margin: auto;
     /* margin: 0;
     max-width: 100%;
     margin: 0;
@@ -20,6 +20,9 @@ html {
     box-sizing: border-box;
 }
 @media screen and (max-width: 450px){
+    nav{
+        padding-left: 1rem !important;
+    }
 .row{
     padding-left: 2px  !important;
     padding-right: 2px !important;
@@ -147,8 +150,37 @@ margin-right: 1rem;
     float: left !important;
     padding-left: 0px;
 }
+.hire-button{
+    display: none;
+    margin-left: 20px;
+    
+    background: #3face4;;
+    border-radius: 18px;
+    line-height: 40px;
+    padding: 0px 30px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    margin-left: -26px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+}
+/* @media screem and (min-width:430px){
+    .hire-button{
+        display: none;
+    }
+} */
+@media screen and (max-width:425px){
+    .hire-button{
+        display: inline;
+    }
+}
+
 @media screen and (min-width: 768px){
-   
+  
     .mob-menu{
         display: none;
     }
@@ -606,6 +638,7 @@ margin-bottom: 20px !important;
         padding-bottom: 3rem;
     }
     .projects-menu a{
+        line-height: 30px;
         text-decoration: none;
         font-size: 16px;
         color:rgba(192, 192, 192, 0.87);
@@ -614,7 +647,10 @@ margin-bottom: 20px !important;
         /* float: right; */
     }
     .projects-menu a:hover{
-        color: blue;
+        color: #3face4;;
+    }
+    .menu a:hover{
+        color: #3face4;
     }
     /* .completed-projects-description{
         text-align: center;
@@ -659,7 +695,7 @@ margin-bottom: 20px !important;
         /* width: 36.66%; */
         align-items: center;
         margin-top: 200px !important;
-        /* margin-left: 100px !important; */
+      
        padding:2rem;
         height: auto; /* Should be removed. Only for demonstration */
       }
