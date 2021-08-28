@@ -1,6 +1,7 @@
 body{
     font-family: "Poppins", sans-serif;
     font-size: 14px;
+    margin: auto;
 }
 html {
     font-family: sans-serif;
@@ -1137,10 +1138,27 @@ border-color: 70% #fff; */
     position: relative;
     margin-bottom: 50px ;
 }
-.offer-button:hover{
+.offer-button2{
+    
+    background: #fff   ;
+    line-height: 40px;
+    padding: 0px 30px;
+    border-radius: 10px;
+    margin-left:10px;
+    border: none;
+    color: #212529;
+    font-weight: 500;
+    margin-left: 30px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 50px ;
+}
+/* .offer-button:hover{
     color: #212529;
     background-color:#fff ;
-}
+} */
 .years{
     margin-left: 130px !important;
 }
