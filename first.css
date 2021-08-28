@@ -1183,6 +1183,9 @@ border-color: 70% #fff; */
     .circle-div{
         display: inline;
     }
+    .footer-column2 input{
+        width: 100% ;
+  }
     
 }
 
