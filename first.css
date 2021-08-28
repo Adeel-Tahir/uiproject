@@ -1,16 +1,4 @@
 body{
-    /* max-width: 2000px;
-    margin: auto; */
-    /* margin: 0;
-    max-width: 100%;
-    margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: #fff; */
     font-family: "Poppins", sans-serif;
     font-size: 14px;
 }
@@ -1076,14 +1064,39 @@ p{
 }
 .circle {
     background: rgb(70, 160, 190);
-    border-radius: 50%;
-    margin-left: 154px;
+    border-radius: 100px;
     width: 100px;
+    margin-top: 45px;
+    margin-left: 40px;
     height: 100px;
     border-spacing: 15px ;
     text-align: center;
     line-height: 100px;
     color: #fff;
+    transform: rotate(-45deg) !important;
+   
+}
+
+.circle-parent{
+    background: #212529;;
+    border-radius: 100px;
+    margin-left: 103px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    transform: rotate(45deg) ;
+
+border: 5px solid;
+border-color:  #fff #fff #fff #212529;
+
+/* border-width: 10px;
+border-style: solid;
+border-color: 70% #fff; */
+    border-spacing: 15px ;
+    
+    /* text-align: center;
+    line-height: 100px; */
+    /* color: #fff; */
 }
 .circle-div{
     flex-basis: 100%;
@@ -1124,9 +1137,9 @@ p{
     position: relative;
     margin-bottom: 50px ;
 }
-.offer-button a:hover{
+.offer-button:hover{
     color: #212529;
-    background-color:#212529 ;
+    background-color:#fff ;
 }
 .years{
     margin-left: 130px !important;
